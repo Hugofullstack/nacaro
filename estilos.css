@@ -2,6 +2,14 @@ body {
     background-color: aquamarine;
 }
 
+ul {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-flow: row;
+
+}
 #social-media-buttons {
     display: flex;
     justify-content: center;
@@ -26,7 +34,7 @@ body {
     color: #ff0000;
     font-size: 70px;
     font-weight: bold;
-    font-style: italic;
+    font-family: "Great Vibes", cursive;
     text-align: center;
     background-color: aquamarine;
 }
